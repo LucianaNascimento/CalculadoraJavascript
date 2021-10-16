@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2 - Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <section class="grid grid-template-areas">
+            <input disabled id="input-value" class="display">
+
+            <button onclick="allClear()" id="bt-ac" class="item allClear button-operations">AC</button>
+            <button id="bt-clear" class="item clear button-operations">C</button>
+                       
+            <button onclick="operator('/')" id="bt-division" class="item division button-operations-right">/</button>
+
+            <button onclick="digit(7)" id="bt-7" class="item seven button-numbers">7</button>
+            <button onclick="digit(8)" id="bt-8" class="item eight button-numbers">8</button>
+            <button onclick="digit(9)" id="bt-9" class="item nine button-numbers">9</button>
+            <button onclick="operator('*')" id="bt-multiplication" class="item multiplication button-operations-right">x</button>
+
+            <button onclick="digit(4)" id="bt-4" class="item four button-numbers">4</button>
+            <button onclick="digit(5)" id="bt-5" class="item five button-numbers">5</button>
+            <button onclick="digit(6)" id="bt-6" class="item six button-numbers">6</button>
+            <button onclick="operator('-')" id="bt-minus" class="item minus button-operations-right">-</button>
+
+            <button onclick="digit(1)" id="bt-1" class="item one button-numbers">1</button>
+            <button onclick="digit(2)" id="bt-2" class="item two button-numbers">2</button>
+            <button onclick="digit(3)" id="bt-3" class="item three button-numbers">3</button>
+            <button onclick="operator('+')" id="bt-plus" class="item plus button-operations-right">+</button>
+
+            <button onclick="operator('%')" id="bt-percent" class="item percent button-operations">%</button>
+            <button onclick="digit(0)" id="bt-0" class="item zero button-numbers">0</button>
+            <button onclick="comma()" id="bt-point" class="item point button-numbers">,</button>
+            <button onclick="calculate()" id="bt-equals" class="item equal button-operations-right">=</button>
+
+        </section>
+
+    </div>
+    
+
+
+</body>
+<script src="script.js"></script>
+</html>
