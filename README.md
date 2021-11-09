@@ -3,6 +3,6 @@ Calculadora feita com Html, Css Grid (responsiva) e Javascript (cálculo sem a u
 
 Aparência da calculadora:
 
-![image](https://user-images.githubusercontent.com/85845319/140843580-266d6122-712d-415f-a881-7a5337d27ede.png)
+![image](https://user-images.githubusercontent.com/85845319/140843832-de0c987f-b3d5-455e-a323-6cae04707798.png)
 
 
